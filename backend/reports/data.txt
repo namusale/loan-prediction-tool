@@ -1,0 +1,164 @@
+   loan_id  no_of_dependents  ... bank_asset_value loan_status
+0        1                 2  ...          8000000    Approved
+1        2                 0  ...          3300000    Rejected
+2        3                 3  ...         12800000    Rejected
+3        4                 3  ...          7900000    Rejected
+4        5                 5  ...          5000000    Rejected
+
+[5 rows x 13 columns]  
+  
+The Dataset Information  None
+Number of missing values 0
+Number of duplicated items 0
+ 
+ Dataset summary            loan_id  no_of_dependents  ...  luxury_assets_value  bank_asset_value
+count  4269.000000       4269.000000  ...         4.269000e+03      4.269000e+03
+mean   2135.000000          2.498712  ...         1.512631e+07      4.976692e+06
+std    1232.498479          1.695910  ...         9.103754e+06      3.250185e+06
+min       1.000000          0.000000  ...         3.000000e+05      0.000000e+00
+25%    1068.000000          1.000000  ...         7.500000e+06      2.300000e+06
+50%    2135.000000          3.000000  ...         1.460000e+07      4.600000e+06
+75%    3202.000000          4.000000  ...         2.170000e+07      7.100000e+06
+max    4269.000000          5.000000  ...         3.920000e+07      1.470000e+07
+
+[8 rows x 10 columns]
+  
+ Feature Skewness 
+ residential_assets_value    0.978451
+commercial_assets_value     0.957791
+bank_asset_value            0.560725
+luxury_assets_value         0.322208
+loan_amount                 0.308724
+loan_term                   0.036359
+loan_id                     0.000000
+cibil_score                -0.009039
+income_annum               -0.012814
+no_of_dependents           -0.017971
+dtype: float64
+ 
+Features based on Correlations and Significant Scores
+                     corr_mat    sig_mat
+loan_status          1.000000  74.984426
+cibil_score          0.978535  62.324598
+loan_term            0.240240  11.498655
+loan_amount          0.067569   2.160411
+luxury_assets_value  0.051808   1.448149
+
+
+Features List Based of Mutual Information
+cibil_score                 0.505422
+loan_term                   0.029148
+luxury_assets_value         0.013130
+self_employed_ Yes          0.005799
+education_ Not Graduate     0.004111
+bank_asset_value            0.002877
+self_employed_ No           0.002567
+loan_id                     0.000000
+no_of_dependents            0.000000
+income_annum                0.000000
+loan_amount                 0.000000
+residential_assets_value    0.000000
+commercial_assets_value     0.000000
+education_ Graduate         0.000000
+dtype: float64
+
+ Feature Importance
+cibil_score                 0.408431
+loan_term                   0.051678
+loan_amount                 0.018423
+income_annum                0.009368
+no_of_dependents            0.002498
+commercial_assets_value     0.002498
+loan_id                     0.001717
+residential_assets_value    0.001717
+luxury_assets_value         0.001093
+bank_asset_value            0.000781
+self_employed_ No           0.000468
+self_employed_ Yes          0.000468
+education_ Not Graduate    -0.000312
+education_ Graduate        -0.001405
+dtype: float64 
+Features based on Correlations and Significant Scores
+                     corr_mat    sig_mat
+loan_status          1.000000  74.984854
+cibil_score          0.978535  62.342880
+loan_term            0.240240  11.491996
+loan_amount          0.067569   2.170814
+luxury_assets_value  0.051808   1.467311
+
+
+Features List Based of Mutual Information
+cibil_score                 0.517114
+loan_term                   0.031439
+luxury_assets_value         0.018801
+self_employed_ No           0.006555
+bank_asset_value            0.004490
+no_of_dependents            0.004456
+income_annum                0.003059
+loan_id                     0.002616
+commercial_assets_value     0.001511
+loan_amount                 0.000000
+residential_assets_value    0.000000
+education_ Graduate         0.000000
+education_ Not Graduate     0.000000
+self_employed_ Yes          0.000000
+dtype: float64
+
+ Feature Importance
+cibil_score                 0.416081
+loan_term                   0.058860
+loan_amount                 0.025293
+income_annum                0.009212
+luxury_assets_value         0.002966
+commercial_assets_value     0.000781
+loan_id                    -0.000312
+education_ Not Graduate    -0.000468
+residential_assets_value   -0.000625
+education_ Graduate        -0.000625
+self_employed_ No          -0.000625
+no_of_dependents           -0.001874
+self_employed_ Yes         -0.001874
+bank_asset_value           -0.002030
+dtype: float64
+
+
+Features List Based of Mutual Information
+cibil_score                 0.499248
+loan_term                   0.043568
+income_annum                0.010307
+education_ Not Graduate     0.003422
+loan_amount                 0.003133
+self_employed_ Yes          0.001028
+self_employed_ No           0.001007
+luxury_assets_value         0.000716
+loan_id                     0.000000
+no_of_dependents            0.000000
+residential_assets_value    0.000000
+commercial_assets_value     0.000000
+bank_asset_value            0.000000
+education_ Graduate         0.000000
+dtype: float64
+
+ Feature Importance
+cibil_score                 0.421233
+loan_term                   0.052459
+income_annum                0.013583
+loan_amount                 0.012022
+luxury_assets_value         0.008119
+no_of_dependents            0.005152
+commercial_assets_value     0.004996
+bank_asset_value            0.003591
+loan_id                     0.002810
+self_employed_ No           0.001874
+education_ Not Graduate     0.001405
+residential_assets_value    0.001249
+self_employed_ Yes          0.001093
+education_ Graduate         0.000937
+dtype: float64 
+Features based on Correlations and Significant Scores
+                     corr_mat    sig_mat
+loan_status          1.000000  74.977264
+cibil_score          0.978535  62.318256
+loan_term            0.240240  11.485523
+loan_amount          0.067569   2.170741
+luxury_assets_value  0.051808   1.456020

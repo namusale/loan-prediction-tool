@@ -1,0 +1,85 @@
+*{margin:0;
+  padding:0.5%;
+
+
+
+  ; /* For browsers that do not support gradients */
+
+
+  }
+
+nav{
+
+/*background-color:#564A1F;*/
+
+    }
+
+body{
+    /*background-image: radial-gradient(#F0EBD6, #D5C58A, #564A1F);*/
+    background-image: radial-gradient(#f5e8b8, #d7c27d, #9d8c4b);
+    background-repeat: no-repeat;
+    background-size: contain;
+     background-repeat: no-repeat;
+     background-size: contain;
+     height:vh;
+}
+h1{
+    background-color:#8F7C34;
+    display:flex;
+    justify-content:center;
+    padding:4%;
+    }
+
+h2{
+    background-color:#8F7C34;
+    display:flex;
+    justify-content:center;
+    padding:2%;}
+
+.showData{
+
+    display: grid;
+    gap:5%;
+    grid-template-columns: 1fr 1fr;
+    /*background-color:#F0E371;*/
+    padding:10% 2% 10% 2%;
+    border-radius:20px;
+
+    }
+
+.Features,.Results{
+        background-color:#D5C58A;
+        display:flex;
+        flex-direction:column;
+        border-radius:15px;
+        padding:2%;
+}
+.inputs{
+    width:30%;
+    border-radius:5px;
+
+ }
+.submit{
+      color:blue;
+      position:relative;
+      background-color:#8F7C34;
+      font-weight:bolder;
+      padding:5px;
+      border-radius:10px;
+       left:45%;
+       padding:10px 24px;
+       font-size:16px;
+}
+
+ul{
+ list-style-type:none;
+ padding:2%;
+ }
+
+footer{background-color:#5C169E;
+       padding:1.0%;
+       position:fixed;
+       bottom:0;
+       width:100%;
+        }
+
