@@ -1,0 +1,14 @@
+# Mac
+.DS_Store
+
+# PyCharm
+.idea/
+
+# Python
+backend/venv/
+backend/__pycache__/
+*.py[cod]
+
+# React
+frontend/node_modules/
+frontend/dist/
